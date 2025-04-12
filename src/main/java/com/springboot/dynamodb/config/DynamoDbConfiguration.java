@@ -27,7 +27,7 @@ public class DynamoDbConfiguration {
                 )
                 .withCredentials(
                         new AWSStaticCredentialsProvider(
-                                new BasicAWSCredentials("AKIAZI2LFM23CS2QP2XU","yl/y0RGG/IDAzbMCMspR9ybQoz2iEQM5ly6tRODU")
+                                new BasicAWSCredentials("<ACCESS_KEY>","<SECRET_KEY>")
                         )
                 ).build();
     }
